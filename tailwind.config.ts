@@ -61,7 +61,21 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// CineVerse specific colors
+				surface: 'hsl(var(--surface))',
+				'text-secondary': 'hsl(var(--text-secondary))'
+			},
+			fontFamily: {
+				sans: ['Plus Jakarta Sans', 'sans-serif']
+			},
+			boxShadow: {
+				'movie-card': 'var(--shadow-movie-card)',
+				'glow': 'var(--shadow-glow)'
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-surface': 'var(--gradient-surface)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
